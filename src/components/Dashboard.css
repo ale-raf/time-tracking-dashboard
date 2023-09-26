@@ -1,0 +1,46 @@
+.dashboard-wrapper {
+  background-color: hsl(235, 46%, 20%);
+  color: whitesmoke;
+  border-radius: 10px;
+}
+.dashboard-profile {
+  padding: 30px;
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 10px;
+}
+.dashboard-profile img {
+  width: 100px;
+  border: 4px solid white;
+  border-radius: 100%;
+}
+.dashboard-profile h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.dashboard-profile span {
+  display: inline-block;
+  width: 100%;
+}
+.dashboard-profile p {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  color: hsl(236, 100%, 87%);
+}
+.dashboard-time {
+  padding: 30px;
+  list-style-type: none;
+}
+.dashboard-time li {
+  width: fit-content;
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(235, 45%, 61%);
+}
+.dashboard-time li:hover {
+  color: hsl(236, 100%, 87%);
+  cursor: pointer;
+}
+.dashboard-time li:not(:first-child) {
+  margin-top: 20px;
+}
