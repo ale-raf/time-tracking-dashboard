@@ -58,3 +58,27 @@
 .card-activity span:hover {
   color: hsl(236, 100%, 87%);
 }
+
+@media screen and (max-width: 375px) {
+  .card-wrapper {
+    width: 100%;
+  }
+  .card-wrapper h3 {
+    font-size: 1.75rem;
+  }
+  .card-info {
+    padding: 10px 20px;
+  }
+  .card-info h2 {
+    font-weight: 500;
+  }
+  .card-info h3 {
+    font-weight: 300;
+  }
+  .card-hours {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10px;
+  }
+}

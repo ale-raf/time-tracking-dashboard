@@ -7,11 +7,10 @@ const Dashboard = ({ onClick }) => {
     <div className="dashboard-wrapper">
       <div className="dashboard-profile">
         <img src={profile} alt="" />
-        <p>Report for</p>
-        <h2>
-          <span>Jeremy</span>
-          <span>Robson</span>
-        </h2>
+        <div>
+          <p>Report for</p>
+          <h2>Jeremy Robson</h2>
+        </div>
       </div>
       <ul className="dashboard-time">
         <li onClick={onClick}>Daily</li>

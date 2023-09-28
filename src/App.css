@@ -24,6 +24,23 @@ body {
 }
 .card-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+}
+
+@media screen and (max-width: 375px) {
+  #root {
+    display: block;
+    height: auto;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .app-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .card-container {
+    grid-template-columns: 1fr;
+    margin-bottom: 30px;
+  }
 }

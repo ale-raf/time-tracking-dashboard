@@ -12,10 +12,12 @@ const Card = ({ color, src, title, time, currentHrs, previousHrs }) => {
           <h2>{title}</h2>
           <span>...</span>
         </div>
-        <h3>{currentHrs}hrs</h3>
-        <p>
-          Last {time} - {previousHrs}hrs
-        </p>
+        <div className="card-hours">
+          <h3>{currentHrs}hrs</h3>
+          <p>
+            Last {time} - {previousHrs}hrs
+          </p>
+        </div>
       </div>
     </div>
   );
